@@ -1,0 +1,165 @@
+html {
+    background-image: url("../img/myaso_eda_salat_blyudo_appetitnoe_70012_1920x1080.jpg");
+    background-attachment: fixed;
+}
+
+* {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    opacity: 100%;
+    backdrop-filter: blur(5px);
+}
+
+.nav-footer{
+    background-color: rgba(237, 161, 91, 0.55);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 150px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 40px;
+}
+.button-item {
+    min-width: 254px;
+    min-height: 70px;
+    border-radius: 17px;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+
+.transition {
+    margin-top: 150px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.button {
+    width: 75px;
+    height: 75px;
+    top: 350px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+
+.stock{
+    width: 714px;
+    height: 400px;
+    padding: 0 0 0 186px;
+    border-radius: 25px;
+}
+
+.clr-yellow {
+    background: rgba(245, 248, 120, 0.72);
+}
+
+.clr-orange-light {
+    background: rgba(237, 161, 91, 0.55);
+}
+
+.clr-orange-dark{
+    background: rgba(219, 141, 68, 0.9);
+}
+.big-text{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #000000;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu-background {
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    background: rgba(237, 161, 91, 0.55);
+    min-width: 250px;
+    min-height: 250px;
+    padding: 20px 20px;
+    border-radius: 30px;
+}
+
+.menu-name {
+    font-family: 'Arial';
+    font-style: normal;
+    text-align: center;
+    font-size: 35px;
+}
+
+.location {
+    display: flex;
+    gap: 100px;
+}
+
+.box{
+    border-radius: 30px;
+    width: 356px;
+    height: 368px;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    gap: 20px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+
+.contact-name {
+    margin-top: 30px;
+}
+
+.contact-numbers {
+    display: flex;
+    gap: 70px;
+}
+#footer_anchor {
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.belyy {
+}
